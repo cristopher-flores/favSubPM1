@@ -1,10 +1,10 @@
 <x-layout>
     <!-- Always remember that you are absolutely unique. Just like everyone else. - Margaret Mead -->
-    <h1>Sign up</h1>
+    <h1 class="text-4xl">Sign up</h1>
     <form action="/register" method="POST">
         @csrf
         <div class="my-3">
-            <x-input titulo="name" type="text" name="name"/>
+            <x-input titulo="Name" type="text" name="name"/>
         </div>
         <div class="my-3">
             <x-input titulo="Email" type="text" name="email"/>

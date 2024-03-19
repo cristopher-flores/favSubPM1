@@ -1,6 +1,6 @@
 <x-layout>
     <!-- Act only according to that maxim whereby you can, at the same time, will that it should become a universal law. - Immanuel Kant -->
-    <h1 class="text-red-600 text-center">Log In</h1>
+    <h1 class="text-red-600 text-center text-4xl">Log In</h1>
     <form action="/login" method="POST">
         @csrf
         <div>
